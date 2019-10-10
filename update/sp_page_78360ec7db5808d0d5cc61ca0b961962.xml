@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>cls_list</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-10-09 14:42:15</sys_created_on>
+        <sys_id>78360ec7db5808d0d5cc61ca0b961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cls_list</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_update_name>sp_page_78360ec7db5808d0d5cc61ca0b961962</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-10-09 14:42:15</sys_updated_on>
+        <title>cls_list - Test Page</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=78360ec7db5808d0d5cc61ca0b961962"/>
+</record_update>

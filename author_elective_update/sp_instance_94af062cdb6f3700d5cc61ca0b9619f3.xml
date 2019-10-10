@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">94af062cdb6f3700d5cc61ca0b9619f1</sp_column>
+        <sp_widget display_value="Listo">dcaf4aa8db6f3700d5cc61ca0b9619fc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-25 14:11:33</sys_created_on>
+        <sys_id>94af062cdb6f3700d5cc61ca0b9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_update_name>sp_instance_94af062cdb6f3700d5cc61ca0b9619f3</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-25 14:11:33</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=94af062cdb6f3700d5cc61ca0b9619f3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</application>
+        <file_path/>
+        <instance_id>476ecffedb6cf70052cec597059619f3</instance_id>
+        <instance_name>dev79000</instance_name>
+        <name>sp_instance_94af062cdb6f3700d5cc61ca0b9619f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">94af062cdb6f3700d5cc61ca0b9619f1</sp_column><sp_widget display_value="Listo">dcaf4aa8db6f3700d5cc61ca0b9619fc</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2019-08-25 14:11:33</sys_created_on><sys_id>94af062cdb6f3700d5cc61ca0b9619f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package><sys_policy/><sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope><sys_update_name>sp_instance_94af062cdb6f3700d5cc61ca0b9619f3</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2019-08-25 14:11:33</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=94af062cdb6f3700d5cc61ca0b9619f3"/></record_update>]]></payload>
+        <payload_hash>1074066877</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e5f2ff3fdb213300d5cc61ca0b9619ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-25 14:11:33</sys_created_on>
+        <sys_id>98af062cdb6f3700d5cc61ca0b9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cc91e2b2d0000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-25 14:11:33</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>d0af062c136f3700b9bffb0b6aea4ff5</update_guid>
+        <update_guid_history>d0af062c136f3700b9bffb0b6aea4ff5:1074066877</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e83e4fb8dbef7700d5cc61ca0b96197c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-26 13:23:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>214ccb1aff7f4a3a8775f2412e6f3184</sys_id>
+        <sys_metadata>94af062cdb6f3700d5cc61ca0b9619f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_scope_delete display_value="">7fbf92520aa54507af19c89f36486249</sys_scope_delete>
+        <sys_update_name>sp_instance_94af062cdb6f3700d5cc61ca0b9619f3</sys_update_name>
+        <sys_update_version display_value="sp_instance_94af062cdb6f3700d5cc61ca0b9619f3">98af062cdb6f3700d5cc61ca0b9619f5</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-26 13:23:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

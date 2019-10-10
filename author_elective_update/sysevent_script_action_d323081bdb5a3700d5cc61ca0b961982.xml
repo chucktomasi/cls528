@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="DELETE">
+        <active>false</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_66238_cls528.run_script</event_name>
+        <name>CLS Demo Script</name>
+        <order>100</order>
+        <script><![CDATA[gs.info('Hello, world!');
+gs.info('current=' + current.getDisplayValue());
+gs.info('parm1=' + event.parm1 + ' parm2=' + event.parm2);]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-07-02 13:45:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d323081bdb5a3700d5cc61ca0b961982</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CLS Demo Script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_update_name>sysevent_script_action_d323081bdb5a3700d5cc61ca0b961982</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-07-03 12:59:56</sys_updated_on>
+    </sysevent_script_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</application>
+        <file_path/>
+        <instance_id>476ecffedb6cf70052cec597059619f3</instance_id>
+        <instance_name>dev79000</instance_name>
+        <name>sysevent_script_action_d323081bdb5a3700d5cc61ca0b961982</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;&lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;x_66238_cls528.run_script&lt;/event_name&gt;&lt;name&gt;CLS Demo Script&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[gs.info('Hello, world!');
+gs.info('current=' + current.getDisplayValue());
+gs.info('parm1=' + event.parm1 + ' parm2=' + event.parm2);]]&gt;&lt;/script&gt;&lt;synchronous&gt;false&lt;/synchronous&gt;&lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chuck.tomasi&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-07-02 13:45:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d323081bdb5a3700d5cc61ca0b961982&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;CLS Demo Script&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CLS528" source="x_66238_cls528"&gt;5df233bbdb213300d5cc61ca0b9619bb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CLS528"&gt;5df233bbdb213300d5cc61ca0b9619bb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_script_action_d323081bdb5a3700d5cc61ca0b961982&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;chuck.tomasi&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-07-03 12:59:56&lt;/sys_updated_on&gt;&lt;/sysevent_script_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2126049660</payload_hash>
+        <record_name>CLS Demo Script</record_name>
+        <reverted_from/>
+        <source>e5f2ff3fdb213300d5cc61ca0b9619ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-07-03 12:59:56</sys_created_on>
+        <sys_id>9ef2012bdb567700d5cc61ca0b9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bb7eb8d700000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-07-03 12:59:56</sys_updated_on>
+        <type>Script Action</type>
+        <update_guid>1af2012bb4567700e7787f975e5fa8f4</update_guid>
+        <update_guid_history>1af2012bb4567700e7787f975e5fa8f4:-2126049660,37d4c45be85a37006cce7b8b4af36d49:28008293,28c3c01bdf5a3700c50ab454a2efd2c2:569152666</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-07-03 13:00:37</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_script_action">sysevent_script_action</sys_db_object>
+        <sys_id>0b9847632b494b209c1eec6f3c6dc690</sys_id>
+        <sys_metadata>d323081bdb5a3700d5cc61ca0b961982</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CLS Demo Script</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_scope_delete display_value="">7fbf92520aa54507af19c89f36486249</sys_scope_delete>
+        <sys_update_name>sysevent_script_action_d323081bdb5a3700d5cc61ca0b961982</sys_update_name>
+        <sys_update_version display_value="sysevent_script_action_d323081bdb5a3700d5cc61ca0b961982">9ef2012bdb567700d5cc61ca0b9619f4</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-07-03 13:00:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

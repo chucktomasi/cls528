@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Listo - Test Page - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="listo">9caf4aa8db6f3700d5cc61ca0b9619ff</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-25 14:11:33</sys_created_on>
+        <sys_id>98af8aa8db6f3700d5cc61ca0b961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Listo - Test Page - Container 1</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_update_name>sp_container_98af8aa8db6f3700d5cc61ca0b961902</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-25 14:11:33</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

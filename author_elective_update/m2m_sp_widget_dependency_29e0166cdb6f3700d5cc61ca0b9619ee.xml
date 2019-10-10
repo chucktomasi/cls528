@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="dirPagination">5a101a2cdb6f3700d5cc61ca0b9619c9</sp_dependency>
+        <sp_widget display_value="Listo">dcaf4aa8db6f3700d5cc61ca0b9619fc</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-25 14:17:06</sys_created_on>
+        <sys_id>29e0166cdb6f3700d5cc61ca0b9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dirPagination.Listo</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_29e0166cdb6f3700d5cc61ca0b9619ee</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-25 14:17:06</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</application>
+        <file_path/>
+        <instance_id>476ecffedb6cf70052cec597059619f3</instance_id>
+        <instance_name>dev79000</instance_name>
+        <name>m2m_sp_widget_dependency_29e0166cdb6f3700d5cc61ca0b9619ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="dirPagination">5a101a2cdb6f3700d5cc61ca0b9619c9</sp_dependency><sp_widget display_value="Listo">dcaf4aa8db6f3700d5cc61ca0b9619fc</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2019-08-25 14:17:06</sys_created_on><sys_id>29e0166cdb6f3700d5cc61ca0b9619ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>dirPagination.Listo</sys_name><sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package><sys_policy/><sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope><sys_update_name>m2m_sp_widget_dependency_29e0166cdb6f3700d5cc61ca0b9619ee</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2019-08-25 14:17:06</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>895737688</payload_hash>
+        <record_name>dirPagination.Listo</record_name>
+        <reverted_from/>
+        <source>e5f2ff3fdb213300d5cc61ca0b9619ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-25 14:17:06</sys_created_on>
+        <sys_id>ade0166cdb6f3700d5cc61ca0b9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cc9233f1a0000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-25 14:17:06</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>e5e0166cc96f3700a4de9a6ab4f570f0</update_guid>
+        <update_guid_history>e5e0166cc96f3700a4de9a6ab4f570f0:895737688</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="dirPagination.Listo">e4115bbcdbef7700d5cc61ca0b96191b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-26 13:35:57</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>52b12b09870545c1b2ac765f392597a1</sys_id>
+        <sys_metadata>29e0166cdb6f3700d5cc61ca0b9619ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dirPagination.Listo</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_scope_delete display_value="">7fbf92520aa54507af19c89f36486249</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_29e0166cdb6f3700d5cc61ca0b9619ee</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_29e0166cdb6f3700d5cc61ca0b9619ee">ade0166cdb6f3700d5cc61ca0b9619f0</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-26 13:35:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="cls_list - Test Page - Container 1">74364ec7db5808d0d5cc61ca0b96192c</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-10-09 14:42:15</sys_created_on>
+        <sys_id>f8364ec7db5808d0d5cc61ca0b96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_update_name>sp_row_f8364ec7db5808d0d5cc61ca0b96192e</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-10-09 14:42:15</sys_updated_on>
+    </sp_row>
+</record_update>

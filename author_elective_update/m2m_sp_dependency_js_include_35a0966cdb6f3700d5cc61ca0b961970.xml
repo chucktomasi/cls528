@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="DELETE">
+        <order>100</order>
+        <sp_dependency display_value="dirPagination">5a101a2cdb6f3700d5cc61ca0b9619c9</sp_dependency>
+        <sp_js_include display_value="dirPagination">7b80566cdb6f3700d5cc61ca0b96190d</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-25 14:16:01</sys_created_on>
+        <sys_id>35a0966cdb6f3700d5cc61ca0b961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dirPagination.dirPagination</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_35a0966cdb6f3700d5cc61ca0b961970</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-25 14:16:01</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</application>
+        <file_path/>
+        <instance_id>476ecffedb6cf70052cec597059619f3</instance_id>
+        <instance_name>dev79000</instance_name>
+        <name>m2m_sp_dependency_js_include_35a0966cdb6f3700d5cc61ca0b961970</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include"><m2m_sp_dependency_js_include action="INSERT_OR_UPDATE"><order>100</order><sp_dependency display_value="dirPagination">5a101a2cdb6f3700d5cc61ca0b9619c9</sp_dependency><sp_js_include display_value="dirPagination">7b80566cdb6f3700d5cc61ca0b96190d</sp_js_include><sys_class_name>m2m_sp_dependency_js_include</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2019-08-25 14:16:01</sys_created_on><sys_id>35a0966cdb6f3700d5cc61ca0b961970</sys_id><sys_mod_count>0</sys_mod_count><sys_name>dirPagination.dirPagination</sys_name><sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package><sys_policy/><sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope><sys_update_name>m2m_sp_dependency_js_include_35a0966cdb6f3700d5cc61ca0b961970</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2019-08-25 14:16:01</sys_updated_on></m2m_sp_dependency_js_include></record_update>]]></payload>
+        <payload_hash>673888672</payload_hash>
+        <record_name>dirPagination.dirPagination</record_name>
+        <reverted_from/>
+        <source>e5f2ff3fdb213300d5cc61ca0b9619ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-25 14:16:01</sys_created_on>
+        <sys_id>b5a0966cdb6f3700d5cc61ca0b961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cc92241c00000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-25 14:16:01</sys_updated_on>
+        <type>Dependency JS Includes</type>
+        <update_guid>fda0966c326f3700efa1f2f129583b71</update_guid>
+        <update_guid_history>fda0966c326f3700efa1f2f129583b71:673888672</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="dirPagination.dirPagination">28115bbcdbef7700d5cc61ca0b96191f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-26 13:35:57</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_js_include">m2m_sp_dependency_js_include</sys_db_object>
+        <sys_id>52bcd816b77e441898fcedf554becd90</sys_id>
+        <sys_metadata>35a0966cdb6f3700d5cc61ca0b961970</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dirPagination.dirPagination</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_scope_delete display_value="">7fbf92520aa54507af19c89f36486249</sys_scope_delete>
+        <sys_update_name>m2m_sp_dependency_js_include_35a0966cdb6f3700d5cc61ca0b961970</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_js_include_35a0966cdb6f3700d5cc61ca0b961970">b5a0966cdb6f3700d5cc61ca0b961972</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-26 13:35:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

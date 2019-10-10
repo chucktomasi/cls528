@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>listo</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Listo</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+
+	data.list = [{
+		"key": 1,
+		"val": "onion soup with ketchup"
+	}, {
+		"key": 2,
+		"val": "beans on toast wrapped in streaky bacon"
+	}, {
+		"key": 3,
+		"val": "beans on toast on a stick with cheese"
+	}, {
+		"key": 4,
+		"val": "avacado maki wrapped in streaky bacon"
+	}, {
+		"key": 5,
+		"val": "sausage on a stick with cheese"
+	}, {
+		"key": 6,
+		"val": "wiener schnitzel on a stick with cheese"
+	}, {
+		"key": 7,
+		"val": "sauerkraut mit ei on a bed of cabbage"
+	}, {
+		"key": 8,
+		"val": "avacado maki on a bed of cabbage"
+	}, {
+		"key": 9,
+		"val": "battered mars bar on toast"
+	}, {
+		"key": 10,
+		"val": "crisp butty on toast"
+	}, {
+		"key": 11,
+		"val": "beans on toast on toast"
+	}, {
+		"key": 12,
+		"val": "cheeseburger wrapped in streaky bacon"
+	}, {
+		"key": 13,
+		"val": "crisp butty drizzled with cheese sauce"
+	}, {
+		"key": 14,
+		"val": "crisp butty with ketchup"
+	}, {
+		"key": 15,
+		"val": "cheeseburger drizzled with cheese sauce"
+	}, {
+		"key": 16,
+		"val": "crisp butty a la king"
+	}, {
+		"key": 17,
+		"val": "salad with a side salad"
+	}, {
+		"key": 18,
+		"val": "wiener schnitzel drizzled with cheese sauce"
+	}, {
+		"key": 19,
+		"val": "beans on toast in pitta bread"
+	}, {
+		"key": 20,
+		"val": "avacado maki a la king"
+	}, {
+		"key": 21,
+		"val": "wiener schnitzel a la king"
+	}, {
+		"key": 22,
+		"val": "sauerkraut mit ei on toast"
+	}, {
+		"key": 23,
+		"val": "salad drizzled with cheese sauce"
+	}, {
+		"key": 24,
+		"val": "beans on toast on a stick with cheese"
+	}, {
+		"key": 25,
+		"val": "beans on toast on toast"
+	}, {
+		"key": 26,
+		"val": "yorkshire pudding wrapped in streaky bacon"
+	}, {
+		"key": 27,
+		"val": "wiener schnitzel on a bed of cabbage"
+	}, {
+		"key": 28,
+		"val": "battered mars bar with chips"
+	}, {
+		"key": 29,
+		"val": "yorkshire pudding drizzled with cheese sauce"
+	}, {
+		"key": 30,
+		"val": "noodles with ketchup"
+	}, {
+		"key": 31,
+		"val": "wiener schnitzel drizzled with cheese sauce"
+	}, {
+		"key": 32,
+		"val": "crisp butty drizzled with cheese sauce"
+	}, {
+		"key": 33,
+		"val": "bak choi in pitta bread"
+	}, {
+		"key": 34,
+		"val": "crisp butty drizzled with cheese sauce"
+	}, {
+		"key": 35,
+		"val": "wiener schnitzel a la king"
+	}, {
+		"key": 36,
+		"val": "yorkshire pudding with ketchup"
+	}, {
+		"key": 37,
+		"val": "bak choi wrapped in streaky bacon"
+	}, {
+		"key": 38,
+		"val": "onion soup a la king"
+	}, {
+		"key": 39,
+		"val": "crisp butty with ketchup"
+	}, {
+		"key": 40,
+		"val": "sauerkraut mit ei with ketchup"
+	}, {
+		"key": 41,
+		"val": "cheeseburger on a stick with cheese"
+	}, {
+		"key": 42,
+		"val": "noodles with ketchup"
+	}, {
+		"key": 43,
+		"val": "noodles on a bed of cabbage"
+	}, {
+		"key": 44,
+		"val": "bak choi on toast"
+	}, {
+		"key": 45,
+		"val": "onion soup with a side salad"
+	}, {
+		"key": 46,
+		"val": "battered mars bar on toast"
+	}, {
+		"key": 47,
+		"val": "salad drizzled with cheese sauce"
+	}, {
+		"key": 48,
+		"val": "salad with chips"
+	}, {
+		"key": 49,
+		"val": "salad in pitta bread"
+	}, {
+		"key": 50,
+		"val": "crisp butty wrapped in streaky bacon"
+	}, {
+		"key": 51,
+		"val": "crisp butty with ketchup"
+	}, {
+		"key": 52,
+		"val": "beans on toast with ketchup"
+	}, {
+		"key": 53,
+		"val": "yorkshire pudding with chips"
+	}, {
+		"key": 54,
+		"val": "sauerkraut mit ei drizzled with cheese sauce"
+	}, {
+		"key": 55,
+		"val": "salad on a stick with cheese"
+	}, {
+		"key": 56,
+		"val": "beans on toast a la king"
+	}, {
+		"key": 57,
+		"val": "bak choi on a stick with cheese"
+	}, {
+		"key": 58,
+		"val": "avacado maki on toast"
+	}, {
+		"key": 59,
+		"val": "battered mars bar wrapped in streaky bacon"
+	}, {
+		"key": 60,
+		"val": "noodles with ketchup"
+	}, {
+		"key": 61,
+		"val": "sauerkraut mit ei on toast"
+	}, {
+		"key": 62,
+		"val": "avacado maki with ketchup"
+	}, {
+		"key": 63,
+		"val": "crisp butty with chips"
+	}, {
+		"key": 64,
+		"val": "yorkshire pudding in pitta bread"
+	}, {
+		"key": 65,
+		"val": "sauerkraut mit ei wrapped in streaky bacon"
+	}, {
+		"key": 66,
+		"val": "salad in pitta bread"
+	}, {
+		"key": 67,
+		"val": "noodles on toast"
+	}, {
+		"key": 68,
+		"val": "bak choi with a side salad"
+	}, {
+		"key": 69,
+		"val": "sausage on toast"
+	}, {
+		"key": 70,
+		"val": "beans on toast with ketchup"
+	}, {
+		"key": 71,
+		"val": "sauerkraut mit ei on toast"
+	}, {
+		"key": 72,
+		"val": "sausage with ketchup"
+	}, {
+		"key": 73,
+		"val": "bak choi with a side salad"
+	}, {
+		"key": 74,
+		"val": "bak choi on a stick with cheese"
+	}, {
+		"key": 75,
+		"val": "bak choi wrapped in streaky bacon"
+	}, {
+		"key": 76,
+		"val": "battered mars bar wrapped in streaky bacon"
+	}, {
+		"key": 77,
+		"val": "sausage in pitta bread"
+	}, {
+		"key": 78,
+		"val": "sausage drizzled with cheese sauce"
+	}, {
+		"key": 79,
+		"val": "yorkshire pudding a la king"
+	}, {
+		"key": 80,
+		"val": "sausage wrapped in streaky bacon"
+	}, {
+		"key": 81,
+		"val": "avacado maki wrapped in streaky bacon"
+	}, {
+		"key": 82,
+		"val": "yorkshire pudding with chips"
+	}, {
+		"key": 83,
+		"val": "bak choi with ketchup"
+	}, {
+		"key": 84,
+		"val": "salad drizzled with cheese sauce"
+	}, {
+		"key": 85,
+		"val": "cheeseburger in pitta bread"
+	}, {
+		"key": 86,
+		"val": "salad on a bed of cabbage"
+	}, {
+		"key": 87,
+		"val": "sausage in pitta bread"
+	}, {
+		"key": 88,
+		"val": "salad on a stick with cheese"
+	}, {
+		"key": 89,
+		"val": "cheeseburger on a stick with cheese"
+	}, {
+		"key": 90,
+		"val": "salad in pitta bread"
+	}, {
+		"key": 91,
+		"val": "cheeseburger in pitta bread"
+	}, {
+		"key": 92,
+		"val": "cheeseburger wrapped in streaky bacon"
+	}, {
+		"key": 93,
+		"val": "avacado maki with chips"
+	}, {
+		"key": 94,
+		"val": "beans on toast with chips"
+	}, {
+		"key": 95,
+		"val": "noodles with chips"
+	}, {
+		"key": 96,
+		"val": "cheeseburger drizzled with cheese sauce"
+	}, {
+		"key": 97,
+		"val": "cheeseburger on a bed of cabbage"
+	}, {
+		"key": 98,
+		"val": "beans on toast with ketchup"
+	}, {
+		"key": 99,
+		"val": "sausage with a side salad"
+	}, {
+		"key": 100,
+		"val": "avacado maki on a bed of cabbage"
+	}]
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-25 14:11:33</sys_created_on>
+        <sys_id>dcaf4aa8db6f3700d5cc61ca0b9619fc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Listo</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_update_name>sp_widget_dcaf4aa8db6f3700d5cc61ca0b9619fc</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-25 14:32:00</sys_updated_on>
+        <template><![CDATA[<link data-require="bootstrap-css@3.1.1" data-semver="3.1.1" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+<script data-require="angular.js@1.3.0" data-semver="1.3.0" src="https://code.angularjs.org/1.3.0/angular.js"></script>
+<script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script data-require="bootstrap@3.1.1" data-semver="3.1.1" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+ 
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      <div ng-controller="MyController" class="my-controller">
+        <h1>Tasty Paginated Menu</h1>
+
+        <small>this is in "MyController"</small>
+
+
+        <div class="row">
+          <div class="col-xs-4">
+            <h3>Meals Page: {{ currentPage }}</h3>
+          </div>
+          <div class="col-xs-4">
+            <label for="search">Search:</label>
+            <input ng-model="q" id="search" class="form-control" placeholder="Filter text">
+          </div>
+          <div class="col-xs-4">
+            <label for="search">Order reverse: {{order}}</label>
+            <input type="checkbox" ng-model="order" class="form-control">
+          </div>
+          <div class="col-xs-4">
+            <label for="search">items per page:</label>
+            <input type="number" min="1" max="100" class="form-control" ng-model="pageSize">
+          </div>
+        </div>
+        <br>
+        <div class="panel panel-default">
+          {{data.list}}
+        </div>
+        <br>
+        <div class="panel panel-default">
+          <div class="panel-body">
+
+            <ul>
+              <li dir-paginate="meal in data.list  = ( meals | filter:q ) | orderBy: order?'key':'-key' | itemsPerPage: pageSize" current-page="currentPage">{{ meal.key + ': ' +meal.val }}</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div ng-controller="OtherController" class="other-controller">
+        <small>this is in "OtherController"</small>
+        <div class="text-center">
+          <dir-pagination-controls boundary-links="true" on-page-change="pageChangeHandler(newPageNumber)" template-url="dirPagination.tpl.html"></dir-pagination-controls>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

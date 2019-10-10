@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="User count" max_length="40" name="x_66238_cls528_user_count" type="collection">
+        <element label="Count" max_length="40" name="count" type="integer"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

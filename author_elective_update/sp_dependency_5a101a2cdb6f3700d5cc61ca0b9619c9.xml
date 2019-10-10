@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_dependency">
+    <sp_dependency action="DELETE">
+        <module/>
+        <name>dirPagination</name>
+        <page_load>true</page_load>
+        <sp_portals/>
+        <sys_class_name>sp_dependency</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-25 14:14:56</sys_created_on>
+        <sys_id>5a101a2cdb6f3700d5cc61ca0b9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dirPagination</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_update_name>sp_dependency_5a101a2cdb6f3700d5cc61ca0b9619c9</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-25 14:14:56</sys_updated_on>
+    </sp_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</application>
+        <file_path/>
+        <instance_id>476ecffedb6cf70052cec597059619f3</instance_id>
+        <instance_name>dev79000</instance_name>
+        <name>sp_dependency_5a101a2cdb6f3700d5cc61ca0b9619c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_dependency"><sp_dependency action="INSERT_OR_UPDATE"><module/><name>dirPagination</name><page_load>true</page_load><sp_portals/><sys_class_name>sp_dependency</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2019-08-25 14:14:56</sys_created_on><sys_id>5a101a2cdb6f3700d5cc61ca0b9619c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>dirPagination</sys_name><sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package><sys_policy/><sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope><sys_update_name>sp_dependency_5a101a2cdb6f3700d5cc61ca0b9619c9</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2019-08-25 14:14:56</sys_updated_on></sp_dependency></record_update>]]></payload>
+        <payload_hash>477575364</payload_hash>
+        <record_name>dirPagination</record_name>
+        <reverted_from/>
+        <source>e5f2ff3fdb213300d5cc61ca0b9619ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-25 14:14:56</sys_created_on>
+        <sys_id>0260926cdb6f3700d5cc61ca0b961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cc92145e30000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-25 14:14:56</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>4a60926c036f370087f363eeac0deb34</update_guid>
+        <update_guid_history>4a60926c036f370087f363eeac0deb34:477575364</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="dirPagination">601117fcdbef7700d5cc61ca0b961952</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2019-08-26 13:35:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_dependency">sp_dependency</sys_db_object>
+        <sys_id>344c85ef33dd42c0a23334dd072c2100</sys_id>
+        <sys_metadata>5a101a2cdb6f3700d5cc61ca0b9619c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dirPagination</sys_name>
+        <sys_package display_value="CLS528" source="x_66238_cls528">5df233bbdb213300d5cc61ca0b9619bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CLS528">5df233bbdb213300d5cc61ca0b9619bb</sys_scope>
+        <sys_scope_delete display_value="">7fbf92520aa54507af19c89f36486249</sys_scope_delete>
+        <sys_update_name>sp_dependency_5a101a2cdb6f3700d5cc61ca0b9619c9</sys_update_name>
+        <sys_update_version display_value="sp_dependency_5a101a2cdb6f3700d5cc61ca0b9619c9">0260926cdb6f3700d5cc61ca0b961935</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2019-08-26 13:35:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
